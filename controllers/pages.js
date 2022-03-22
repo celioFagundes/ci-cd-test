@@ -14,7 +14,7 @@ const calc = (req, res) => {
     if (num1 % num2 === 0) {
       res.send("Divisivel");
     } else {
-      res.send('NaoDivisivel');
+      res.send("NaoDivisivel");
     }
   }
 }
