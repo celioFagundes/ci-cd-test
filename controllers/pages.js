@@ -9,12 +9,12 @@ const calc = (req, res) => {
   const num1 = parseInt(req.params.num1)
   const num2 = parseInt(req.params.num2)
   if (num2 === 0) {
-    res.send("DivisaoZero");
+    res.send('DivisaoZero')
   } else {
     if (num1 % num2 === 0) {
-      res.send("Divisivel");
+      res.send('Divisivel')
     } else {
-      res.send("NaoDivisivel");
+      res.send('NaoDivisivel')
     }
   }
 }
